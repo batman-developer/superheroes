@@ -6,7 +6,7 @@ package com.tutorial.superheroes;
  */
 public class Hero {
 	
-	private final String name;
+	public final String name;
 
 	/**
 	 * Constructor
