@@ -5,5 +5,18 @@ package com.tutorial.superheroes;
  * @author batman
  */
 public class Hero {
+	
+	private String name;
+
+	/**
+	 * Constructor
+	 * @param name
+	 */
+	public Hero(String name) {
+		super();
+		this.name = name;
+	}
+	
+	
 
 }
