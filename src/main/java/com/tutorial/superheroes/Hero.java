@@ -16,7 +16,12 @@ public class Hero {
 		super();
 		this.name = name;
 	}
-	
-	
 
+	/**
+	 * @return the name
+	 */
+	public String getName() {
+		return name;
+	}
+	
 }
