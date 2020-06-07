@@ -19,6 +19,13 @@ public class Battle {
 		this.hero1 = hero1;
 		this.hero2 = hero2;
 	}
+	
+	/**
+	 * Simula batalla entre dos héroes
+	 */
+	private void fight() {
+		
+	}
 
 	/**
 	 * Devuelve el ganador de la batalla
