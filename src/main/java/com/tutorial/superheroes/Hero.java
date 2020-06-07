@@ -9,18 +9,20 @@ public class Hero {
 	private final String name;
 	private final int speed;
 	private final int agility;
+	private final int strength;
  
 	/**
 	 * Constructor
 	 * @param name
 	 * @param speed
-	 * @param agility
+	 * @param strength
 	 */
-	public Hero(String name, int speed, int agility) {
+	public Hero(String name, int speed, int agility, int strength) {
 		super();
 		this.name = name;
 		this.speed = speed;
 		this.agility = agility;
+		this.strength = strength;
 	}
 
 	/**
@@ -43,5 +45,14 @@ public class Hero {
 	public int getAgility() {
 		return agility;
 	}
+	
+	/**
+	 * @return the strength
+	 */
+	public int getStrength() {
+		return strength;
+	}
+	
+	
 
 }
