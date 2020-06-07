@@ -1,7 +1,8 @@
 package com.tutorial.superheroes;
 
 /**
- * Clase con las características de un héroe
+ * Clase con las características de un héroe. Incluye información necesaria para
+ * simular batallas entre diferentes héroes y datos descriptivos sobre ellos.
  * @author superman
  */
 public class Hero { 
@@ -16,7 +17,7 @@ public class Hero {
 	 * @param speed
 	 * @param agility
 	 */
-	public Hero(String name, int speed, int agility) {
+	public Hero(String name, int speed, int agility) {   
 		super();
 		this.name = name;
 		this.speed = speed;
