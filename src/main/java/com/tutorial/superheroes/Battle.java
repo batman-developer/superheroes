@@ -28,4 +28,16 @@ public class Battle {
 		return this.hero1.getAgility() > this.hero2.getAgility() ? this.hero1 : this.hero2;
 	}
 
+	/**
+	 * @return toString
+	 */
+	@Override
+	public String toString() {
+		StringBuilder builder = new StringBuilder();
+		builder.append("Battle [hero1=").append(hero1).append(", hero2=").append(hero2).append("]");
+		return builder.toString();
+	}
+	
+	
+
 }
