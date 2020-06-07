@@ -7,14 +7,17 @@ package com.tutorial.superheroes;
 public class Hero {
 	
 	private final String name;
+	private final int speed;
  
 	/**
 	 * Constructor
 	 * @param name
+	 * @param speed
 	 */
-	public Hero(String name) {
+	public Hero(String name, int speed) {
 		super();
 		this.name = name;
+		this.speed = speed;
 	}
 
 	/**
@@ -24,4 +27,11 @@ public class Hero {
 		return name;
 	}
 	
+	/**
+	 * @return the name
+	 */
+	public int getSpeed() {
+		return speed;
+	}
+
 }
