@@ -7,14 +7,17 @@ package com.tutorial.superheroes;
 public class Hero {
 	
 	private final String name;
+	private final int agility;
  
 	/**
 	 * Constructor
 	 * @param name
+	 * @param agility
 	 */
-	public Hero(String name) {
+	public Hero(String name, int agility) {
 		super();
 		this.name = name;
+		this.agility = agility;
 	}
 
 	/**
@@ -23,5 +26,14 @@ public class Hero {
 	public String getName() {
 		return name;
 	}
+	
+	/**
+	 * @return the agility
+	 */
+	public int getAgility() {
+		return agility;
+	}
+	
+	
 	
 }
