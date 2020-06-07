@@ -25,7 +25,7 @@ public class Battle {
 	 * @return Ganador
 	 */
 	public Hero getWinner() {
-		return this.hero1 != null && this.hero2 == null ? this.hero1 : this.hero2;
+		return this.hero1.getAgility() > this.hero2.getAgility() ? this.hero1 : this.hero2;
 	}
 
 }
