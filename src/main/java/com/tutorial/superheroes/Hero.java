@@ -5,7 +5,7 @@ package com.tutorial.superheroes;
  * simular batallas entre diferentes héroes y datos descriptivos sobre ellos.
  * @author superman
  */
-public class Hero { 
+public class Hero {     
 	
 	private final String name;
 	private final int speed;

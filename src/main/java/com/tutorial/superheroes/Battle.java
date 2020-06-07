@@ -19,6 +19,13 @@ public class Battle {
 		this.hero1 = hero1;
 		this.hero2 = hero2;
 	}
+	
+	/**
+	 * Simula batalla entre dos héroes
+	 */
+	private void fight() {
+		
+	}
 
 	/**
 	 * Devuelve el ganador de la batalla
@@ -27,5 +34,17 @@ public class Battle {
 	public Hero getWinner() {
 		return this.hero1.getAgility() > this.hero2.getAgility() ? this.hero1 : this.hero2;
 	}
+
+	/**
+	 * @return toString
+	 */
+	@Override
+	public String toString() {
+		StringBuilder builder = new StringBuilder();
+		builder.append("Battle [hero1=").append(hero1).append(", hero2=").append(hero2).append("]");
+		return builder.toString();
+	}
+	
+	
 
 }
